@@ -15,8 +15,16 @@ LinkedList.prototype.prepend = function(data){
   }
 };
 
-LinkedList.prototype.append = function(){
-  
+LinkedList.prototype.append = function(data){
+  if(this.head === null){
+  	this.head = new Node(data);
+  }else {
+  	var currNode = this.head;
+  	while(currNode.next !== null){
+  		currNode = currNode.next;
+  	}
+  	currNode.next = new Node(data);
+  }
 };
 
 LinkedList.prototype.remove = function(){
