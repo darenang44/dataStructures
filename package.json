@@ -1,0 +1,22 @@
+{
+  "name": "datastructures",
+  "version": "1.0.0",
+  "description": "",
+  "main": "LinkedList.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darenang44/dataStructures.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/darenang44/dataStructures/issues"
+  },
+  "homepage": "https://github.com/darenang44/dataStructures#readme",
+  "dependencies": {
+    "chai": "^3.5.0"
+  }
+}
